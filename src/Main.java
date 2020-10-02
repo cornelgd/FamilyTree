@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
 public class Main {
-    public static boolean barbat = true;
 
 
     public static void main(String[] args) {
         int lev = Integer.parseInt(args[2]);
         String NumeFamilie = args[1];
-        String numeTata = null, numeMama = null;
+        String numeTata , numeMama ;
         int maxy = (int) Math.pow(2, lev + 1);
         String[][] numeParinti = new String[lev][maxy];
 

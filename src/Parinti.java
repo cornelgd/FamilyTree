@@ -15,17 +15,15 @@ public class Parinti {
     }
 
     public String genNumB() {
-        String numeB;
-        return numeB = anumMicBarbat[(int) (Math.random() * 8)];
+
+        return  anumMicBarbat[(int) (Math.random() * 8)];
     }
 
     public String genNumF() {
-        String numeF;
-        return numeF = anumMicFemeie[(int) (Math.random() * 8)];
+        return  anumMicFemeie[(int) (Math.random() * 8)];
     }
 
     public String genNumFam() {
-        String numeFam;
-        return numeFam = anumFam[(int) (Math.random() * 8)];
+        return  anumFam[(int) (Math.random() * 8)];
     }
 }
